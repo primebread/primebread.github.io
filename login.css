@@ -1,0 +1,84 @@
+.container
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px 25px;
+    width: 400px;
+    background-color: rgba(73, 63, 63, 0.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+} 
+.badut{
+    position: absolute;
+    left: -80%;
+    top: -500%;
+}
+.gambar{
+    position: relative;
+    left: 60%;
+    top: 50%;
+}                                             
+
+.hero{
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: moccasin;
+    
+    
+}                     
+
+.container form input{
+    width: calc(100% - 20px);
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.container h1{
+    text-align:center;
+    color: #fafafa;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #2979ff;
+
+}
+
+.container form button{
+    width: 100%;
+    padding: 5px 0;
+    border: none;
+    background-color:#2979ff;
+    font-size: 18px;
+    color: #fafafa;
+
+}
+
+.password {
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+
+.footer{
+    padding: 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+
+
+}
