@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: rgb(245, 217, 141); 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+.medsos {
+    padding:5px;
+    background-color: rgb(253, 242, 139);
+}
+.medsos ul li {
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.container {
+    width: 120%;
+    border: 1px solid;
+}
+
+.container::after{
+    content: '';
+    display: block;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    clear: both;
+}
+
+header h1{
+    
+    float: left;
+    color:blue;
+}
+header h1 a {
+    float: left;
+    color: red;
+}
+header ul {
+    border: 1px;
+    float: right;
+}
+
+header ul li  {
+    padding: 10px;
+    display:inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    padding: 25px 20px;
+}
+
+header ul li a:hover {
+    background-color:rgb(253, 242, 139);
+    color: #fff;
+    transition: 2s;
+} 
+.active {
+    color: #fff;
+    background-color: rgb(253, 242, 139);
+}
+
+.banner {
+    background-image: url(img/gedung.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner::after{
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(253, 242, 139, .5);
+}
+
+.banner h2 {
+    border:5px rgb(255, 30, 0) solid;
+    z-index: 1;
+    font-size: 2em;
+    background-color:rgb(26, 22, 224);
+}
+
+.about h2 {
+    color: blue;
+    padding: 20px;
+    text-align: center;
+}
+
+.about p {
+    font-size: 15px;
+    word-spacing: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(253, 242, 139);
+    background-image: url(img/boxprime.png), nth-;
+}
+
+.service h2{
+    text-align: center;
+    color: blue;
+    padding: 20px;
+}
+
+.box {
+    width: 100%;
+    height:100%;
+    background-image: url(img/2.jpg);
+}
+
+
+.box::after {
+    content:'';
+    display:block ;
+    clear: both;
+}
+
+.box .col-4 {
+    width: 30%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    text-align: center;
+    line-height: 80px 10px;
+    display: inline-block;
+    color: blue;
+}
+
+.icon {
+    width: 250px;
+    height: 250px;
+    border: 1px solid;
+    border-radius: 50%;
+    font-size: 50px;
+    line-height: 150px;
+    margin: 0 auto;
+}
+
+.box .col-4 h3 {
+    margin: 25px 5px;
+}
+
+.box .p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    position: absolute;
+    border: 1px solid;
+}
+
+.box .card ul:nth-last-of-type(1){
+        background-image: url(img/1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: inline-block;
+        width: 300px;
+        height: 200px;
+}
+
+
+.box .card :nth-child(){
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+.services:nth-child(1) .col-4{
+    display: block;
+    background-image: url(gambar/7.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+.services:nth-child(2) .col-4{
+    display: block;
+    background-image: url(gambar/8.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+.services:nth-child(3) .col-4{
+    display: block;
+    background-image: url(gambar/9.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+
+.services:nth-child(4) .col-4{
+    display: block;
+    background-image: url(gambar/10.jpg);
+    background-size: cover;
+    position: relative;
+    height: 300px;
+}
+
+
+
+.page {
+    color: blue;
+    float:right;
+}
+
+.page ul li{
+    display: inline-block;
+    margin-right: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.page ul li:hover{
+    background-color: crimson;
+    color: whitesmoke;
+    transition: 2s;
+}
+
+.active {
+    background-color: red;
+    color: whitesmoke;
+}

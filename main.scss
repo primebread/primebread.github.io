@@ -1,0 +1,22 @@
+// font
+
+
+
+//variabel
+$primaryColor:#f35ca3;
+$secondaryColor:#aabde6;
+$textColor:#393c43;
+
+
+//style
+
+body {
+    font-family: 'Courier New', Courier, monospace;    
+    background-image: url(img/praktis.png);
+}
+.container {    
+    display: block;
+    width: 60%;
+    margin: 0;
+    border:black 10px ;
+}

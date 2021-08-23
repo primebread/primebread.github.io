@@ -4,8 +4,10 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    padding: 20px 25px;
     width: 400px;
-    background-color:peru;
+    background-color: rgba(73, 63, 63, 0.7);
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
 }
 
 *{
@@ -14,7 +16,6 @@
     outline: 0;
     font-family: 'Open Sans', sans-serif;
 } 
-
 
 .hero{
     padding-bottom: 20px;
@@ -33,7 +34,7 @@ body{
     border: none;
     background-color: transparent;
     border-bottom: 2px solid #2979ff;
-    color:black;
+    color: #fff;
     font-size: 20px;
 }
 
@@ -53,26 +54,28 @@ body{
     background-color:#2979ff;
     font-size: 18px;
     color: #fafafa;
- 
+
 }
-
-
 
 .password {
     padding: 10px;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
-.gambar{
-    position: absolute;
-    top: -150;
-    left: -300;
-  }    
   
+
+
 .badut {
     position: absolute;
-    top: -150;
-    left: 450;
-  }
- 
+    left:250;
+    top: -385;
+    width: 10px;
+}
+
+.gambar {
+    position: relative;
+    left: 200;
+    top: 500;
+}
+
+

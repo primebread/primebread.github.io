@@ -133,20 +133,6 @@
     margin-bottom: 0;
 }
  
-.berita {
-    background-color: cornflowerblue;
-}
-
-.berita:hover{
-    transition: 2.5s;
-    background-color: transparent;
-}
-
-.acara {
-    text-align: center;
-   
-}
-
 .tanggal-posting
 {
     color: gray;
@@ -155,7 +141,7 @@
     margin-bottom: 10px;
     display: block;
 }
-
+ 
 .tombol
 {
     display: block;
@@ -224,29 +210,30 @@ footer
     border-bottom: 5px double chocolate;
     transition-duration: 2s;
 }
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    background-color: cornflowerblue;
+}
 
-.tanggal {
-    padding: 20px;
+h1:hover {
+    transition: 2s;
+    background-color: darkgray;
 }
-.waktu {
-    padding: 20px;
-}
-.clock {
-    padding-left: 50px;
+
+.judul {
     
+    background-color: darkgrey;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
+
+.judul:hover {
+    transition: 2s;
+    background-color:cornflowerblue;
 }
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-  cursor: pointer;
-}
+
+
 /*untuk tablet*/
 @media screen and (max-width:1080px)
 {

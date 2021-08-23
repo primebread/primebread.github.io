@@ -4,7 +4,38 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    padding: 30px;
+    text-align: center;
+}
  
+.komplain {
+
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    background-color:moccasin;
+    transition: 2s;
+    border: 5px solid rgb(207, 68, 68);
+    color: rgb(11, 9, 14);
+}
+
+.komplain:hover{
+    background-color: rgb(106, 148, 231);
+    transition: 2s;
+    color: rgb(9, 4, 15);
+}
+.done {
+    width: 25%;
+    padding-top: 25px;
+    padding-left: 40%;
+}
+
+.data .form {
+    position: relative;
+}
+
 .body
 {
     background-color:rgb(27, 71, 216);
@@ -75,132 +106,26 @@
     width: 100%;
     height: 350px;
 }
-.terbaru {
-    border:1px cornsilk;
-    padding: 10px;
-    margin-bottom: 15px;
+.submit {
+  border: 1px solid;
+  background-color: crimson;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  position: relative;
+    padding-top: 10px;
 }
-.kolom-link {
-    border:10px cornsilk;
-    width: 230px;
-    margin-right: 10px;
-    float: left;
+.blank {
+    padding: 25px;
 }
-
-/* .kotak { */
-   /* border:10px solid rgb(12, 191, 245)220, 220); */
-    /* padding: 5px; */
-    /* margin-bottom: 15px;  */
-/* } */
- 
-.kotak h5
-{
-    background-color: rgb(245, 0, 0);
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 13px;
-}
- 
-.kotak img {
-    width:50px;
-    height:100px;
-  }
-
-.kotak p
-{
-    margin-bottom: 10px;
-}
- 
-.menu-kiri
-{
-    width: 250px;
-    margin-right: 10px;
-    float: left;
-}
- 
-.menu-tengah
-{
-    width: 530px;
-    margin-right: 10px;
-    float: left;
-}
- 
-.menu-tengah h3
-{
-    background: none;
-    color: crimson;
-    margin-bottom: 0;
-}
- 
-.berita {
-    background-color: cornflowerblue;
-}
-
-.berita:hover{
-    transition: 2.5s;
-    background-color: transparent;
-}
-
-.acara {
-    text-align: center;
-   
-}
-
-.tanggal-posting
-{
-    color: gray;
-    text-align: right;
-    font-size: 12px;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.tombol
-{
-    display: block;
-    text-decoration: none;
-    padding: 10px;
-    width: 120px;
-    color: white;
-    border-radius: 5px;
-    text-align: center;
-}
- 
-.tombol:hover
-{
-    background-color: black;
-    transition-duration: 2s;
-}
- 
-.tombol-pesan
-{
-    background-color: green;
-}
- 
-.tombol-lengkap
-{
-    background-color: darkorange;
-}
- 
-.menu-kanan
-{
-    width: 250px;
-    float: left;
-}
- 
-.menu-kanan, .menu-kiri, .menu-tengah
-{
-    margin-bottom: 15px;
-}
- 
 footer
 {
     clear: both;
     background-color: rgb(155, 9, 45);
     color: white;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
+    padding-top: 5px;
 }
  
 .menu-artikel ul
@@ -225,28 +150,6 @@ footer
     transition-duration: 2s;
 }
 
-.tanggal {
-    padding: 20px;
-}
-.waktu {
-    padding: 20px;
-}
-.clock {
-    padding-left: 50px;
-    
-}
-button,
-[type=button],
-[type=reset],
-[type=submit] {
-  -webkit-appearance: button;
-}
-button:not(:disabled),
-[type=button]:not(:disabled),
-[type=reset]:not(:disabled),
-[type=submit]:not(:disabled) {
-  cursor: pointer;
-}
 /*untuk tablet*/
 @media screen and (max-width:1080px)
 {
